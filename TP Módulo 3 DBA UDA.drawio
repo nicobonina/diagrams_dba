@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-07T19:20:50.189Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32" etag="oGDqL33FQh-oyUg_ePeC" version="17.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-07T21:21:49.971Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32" etag="Thk8rwMPJ9nEl-5d-Xcy" version="17.5.0" type="github">
   <diagram id="TtP-CfeIA3QvMqHtvhTb" name="Page-1">
-    <mxGraphModel dx="1154" dy="1690" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="894" dy="1651" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17,10 +17,10 @@
           <mxGeometry x="60" y="40" width="90" height="200" as="geometry" />
         </mxCell>
         <mxCell id="HzS_BnhPK9T8P5cMP2ur-24" value="Devices" style="swimlane;startSize=23;fontColor=#FFFF33;" parent="1" vertex="1">
-          <mxGeometry x="400" y="-890" width="210" height="200" as="geometry" />
+          <mxGeometry x="400" y="-890" width="210" height="178" as="geometry" />
         </mxCell>
-        <mxCell id="pAm7fmLb9yArs0JBZIK8-22" value="*device_id&lt;br&gt;television&lt;br&gt;telephone&lt;br&gt;tablet&lt;br&gt;computer&lt;br&gt;laptop&lt;br&gt;game_console&lt;br&gt;streaming_device&lt;br&gt;decoder&lt;br&gt;subscription_id&lt;br&gt;customer_id" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FFFF33;" parent="HzS_BnhPK9T8P5cMP2ur-24" vertex="1">
-          <mxGeometry x="60" y="30" width="110" height="160" as="geometry" />
+        <mxCell id="pAm7fmLb9yArs0JBZIK8-22" value="*device_id&lt;br&gt;subscription_id&lt;br&gt;customer_id&lt;br&gt;device_type&lt;br&gt;last_update" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FFFF33;" parent="HzS_BnhPK9T8P5cMP2ur-24" vertex="1">
+          <mxGeometry x="60" y="60" width="90" height="74" as="geometry" />
         </mxCell>
         <mxCell id="HzS_BnhPK9T8P5cMP2ur-20" value="City" style="swimlane;startSize=23;" parent="1" vertex="1">
           <mxGeometry x="90" y="-790" width="200" height="170" as="geometry" />
@@ -148,9 +148,9 @@
             <mxPoint x="190" y="-790" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DgAUPHsds82khlt7tc6R-16" value="" style="fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;fontColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="pAm7fmLb9yArs0JBZIK8-1">
+        <mxCell id="DgAUPHsds82khlt7tc6R-16" value="" style="fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;fontColor=#FFFFFF;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="pAm7fmLb9yArs0JBZIK8-1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="504.63" y="-690" as="sourcePoint" />
+            <mxPoint x="505" y="-712" as="sourcePoint" />
             <mxPoint x="504.63" y="-620" as="targetPoint" />
           </mxGeometry>
         </mxCell>
