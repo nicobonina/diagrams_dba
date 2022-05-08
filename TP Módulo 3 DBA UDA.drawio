@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-08T15:41:39.970Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32" etag="k3wAh8JHRjJaWPCsMphp" version="17.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-08T18:53:02.380Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32" etag="pVjmR_mxCM4o3GBOOWJ6" version="17.5.0" type="github">
   <diagram id="TtP-CfeIA3QvMqHtvhTb" name="Page-1">
     <mxGraphModel dx="1045" dy="1703" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -19,7 +19,7 @@
         <mxCell id="HzS_BnhPK9T8P5cMP2ur-24" value="devices" style="swimlane;startSize=23;fontColor=#FFFF33;" parent="1" vertex="1">
           <mxGeometry x="400" y="-890" width="210" height="178" as="geometry" />
         </mxCell>
-        <mxCell id="pAm7fmLb9yArs0JBZIK8-22" value="*device_id&lt;br&gt;subscription_id&lt;br&gt;customer_id&lt;br&gt;device_type&lt;br&gt;last_update" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FFFF33;" parent="HzS_BnhPK9T8P5cMP2ur-24" vertex="1">
+        <mxCell id="pAm7fmLb9yArs0JBZIK8-22" value="*devices_id&lt;br&gt;subscription_id&lt;br&gt;customer_id&lt;br&gt;device_type&lt;br&gt;last_update" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FFFF33;" parent="HzS_BnhPK9T8P5cMP2ur-24" vertex="1">
           <mxGeometry x="60" y="60" width="90" height="74" as="geometry" />
         </mxCell>
         <mxCell id="HzS_BnhPK9T8P5cMP2ur-20" value="city" style="swimlane;startSize=23;" parent="1" vertex="1">
@@ -31,8 +31,8 @@
         <mxCell id="HzS_BnhPK9T8P5cMP2ur-22" value="subscription" style="swimlane;startSize=23;fontColor=#FFFF33;" parent="1" vertex="1">
           <mxGeometry x="400" y="-1120" width="210" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="pAm7fmLb9yArs0JBZIK8-20" value="*subscription_id&lt;br&gt;customer_id&lt;br&gt;plan&lt;br&gt;payment_method&lt;br&gt;payment_status&lt;br&gt;last_update" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FFFF33;" parent="HzS_BnhPK9T8P5cMP2ur-22" vertex="1">
-          <mxGeometry x="55" y="41" width="103" height="88" as="geometry" />
+        <mxCell id="pAm7fmLb9yArs0JBZIK8-20" value="*subscription_id&lt;br&gt;customer_id&lt;br&gt;plan&lt;br&gt;payment_method&lt;br&gt;payment_date&lt;br&gt;payment_on_time&lt;br&gt;last_update" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FFFF33;" parent="HzS_BnhPK9T8P5cMP2ur-22" vertex="1">
+          <mxGeometry x="55" y="34" width="105" height="102" as="geometry" />
         </mxCell>
         <mxCell id="pAm7fmLb9yArs0JBZIK8-1" value="profile" style="swimlane;startSize=23;fontColor=#FFFF33;" parent="1" vertex="1">
           <mxGeometry x="400" y="-600" width="210" height="200" as="geometry" />
